@@ -5,6 +5,7 @@ package com.iteblog
  * Date  : 2015/11/13 14:54
  * Email : wyphao.2007@163.com
  * Blog  : http://www.iteblog.com
+ * F
  */
 object IPv4CheckSum {
   def checksum(header: String): String = {

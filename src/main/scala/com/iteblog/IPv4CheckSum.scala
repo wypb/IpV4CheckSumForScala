@@ -7,6 +7,7 @@ package com.iteblog
  * Blog  : http://www.iteblog.com
  */
 object IPv4CheckSum {
+
   def checksum(header: String): String = {
     val arr = header.split(" ")
     val sum = (for (item <- arr) yield Integer.parseInt(item, 16)).sum

@@ -1,1 +1,1 @@
-# IpV4 checksum implememt in Scala.
+# IpV4 checksum implement in Scala.
